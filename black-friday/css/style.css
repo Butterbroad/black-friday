@@ -292,7 +292,7 @@ input:focus::placeholder {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 31px 0 10%;
+  padding: 2% 0 10%;
 }
 
 .hero__top {
@@ -333,7 +333,7 @@ input:focus::placeholder {
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: 70px;
+  margin-top: 7%;
 }
 
 .hero__image {
@@ -365,6 +365,19 @@ input:focus::placeholder {
   right: -15%;
   top: 10%;
   min-width: 831px;
+}
+
+.hero__image_4 {
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  min-width: 748px;
+}
+
+.hero__image_4 img {
+  width: 100%;
 }
 
 .hero__box {
@@ -528,6 +541,10 @@ input:focus::placeholder {
     max-width: 700px;
     right: -5%;
   }
+
+  .hero__image_4 {
+    min-width: 600px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -608,6 +625,10 @@ input:focus::placeholder {
     max-width: 430px;
     right: 5%;
   }
+
+  .hero__image_4 {
+    min-width: 400px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -639,6 +660,10 @@ input:focus::placeholder {
   .hero__image_3 {
     max-width: 404px;
     right: -3%;
+  }
+
+  .hero__image_4 {
+    min-width: 425px;
   }
 
   .hero__btn {
@@ -742,6 +767,11 @@ input:focus::placeholder {
   .hero__image_3 {
     right: -13%;
   }
+
+  .hero__image_4 {
+    top: 33%;
+    min-width: 425px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -779,6 +809,7 @@ input:focus::placeholder {
   .hero__image_1 {
     max-width: 223px;
     left: -3%;
+    z-index: 4;
   }
 
   .hero__image_2 {
@@ -789,6 +820,12 @@ input:focus::placeholder {
   .hero__image_3 {
     max-width: 223px;
     right: -7%;
+    z-index: 4;
+  }
+
+  .hero__image_4 {
+    min-width: 221px;
+    top: 28%;
   }
 
   .hero__info::before,
@@ -835,6 +872,10 @@ input:focus::placeholder {
   .hero__image_2 {
     top: 25%;
   }
+
+  .hero__image_4 {
+    top: 25%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -853,6 +894,10 @@ input:focus::placeholder {
   }
 
   .hero__image_2 {
+    top: 30%;
+  }
+
+  .hero__image_4 {
     top: 30%;
   }
 }
@@ -876,6 +921,10 @@ input:focus::placeholder {
 
   .hero__image_3 {
     right: -25%;
+  }
+
+  .hero__image_4 {
+    top: 33%;
   }
 }
 
